@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500&family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,300&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+   
+    <section class="upper">
+      <section class="main">
+        <section class="signup-left">
+          <div class="welcome">
+            <p class="heading">Welcome!!</p>
+            <p class="login">Login to get Started</p>
+          </div>
+          <div class="credentials">
+            <div class="userinput">
+              <input id="use" type="text" placeholder=" ID" />
+              <img src="images/user.svg" alt="user" class="userimg" />
+            </div>
+            <div class="userinput">
+              <input id="password" type="password" placeholder="Password" />
+              <img
+                src="images/eyeclose.svg"
+                alt="user"
+                class="userimg"
+                id="eye"
+              /> 
+              <img
+                src="images/eyeopen.svg"
+                alt="user"
+                class="userimg"
+                id="eyeopen"
+              />        
+            </div>
+            <button class="login2">Login</button>
+          </div>
+        </section>
+
+        <section class="signup-right">
+          <img src="images/illustration.png" alt="pic" class="illustration" />
+        </section>
+      </section>
+    </section>
+    <section class="sab-kuch">
+    <section class="application">
+    <section class="app">
+      <p class="greet">Heyy !!</p>
+    <section class="current-balance">
+      <div class="current">
+        <p class="c-b-label">CURRENT BALANCE</p>
+        <p class="data">AS OF <span class="date">15/09/2022 , 18:05</span></p>
+      </div>
+      <p class="balance"></p>
+    </section>
+  <P class="note"> * Your  individual Expenses and Income will be added below after you specify the amount and it's type one by one.</P>
+<section class="movements">
+
+    <div class="movements-section" id="m-1">
+      <div class="movement-type-EXPENSES"> 1.  Travel Expense (SAMPLE) </div>
+      <div class="movements-type-dates"></div>
+        <div class="amount"> 3,000 &#8377</div>
+  </div>
+    <div class="movements-section" id="m-2">
+      <div class="movement-type-INCOME"> 1.  Business  Income (SAMPLE) </div>
+      <div class="movements-type-date"></div>
+      <div class="amount"> 3,000 &#8377</div>
+  </div>
+</section>
+</section>
+<section class="transfers">
+<div class="how-much" id="transfers-1">
+<div class="expense-div">
+<p class="expense">Today's Expenses</p>
+<div class="input_tick">
+<input type="number" class="expense_value" id="kharch1" placeholder="Enter Expense 1">
+<img src="images/tick.png" alt="tick" class="tick" id="tick1">
+</div>
+</div>
+<div class="how-much" id="transfers-2">
+  <p class="expense">Expense Type </p>
+  <div class="input_tick">
+  <input type="text" class="expense_value" id="kaisa" placeholder=" Exp :Travel...">
+  <img src="images/tick.png" alt="tick" class="tick" id="tick2">
+</div>
+</div>
+</div>
+<div class="how-much" id="transfers-3">
+  <div class="expense-div">
+  <p class="expense">Today's Income</p>
+  <div class="input_tick">
+  <input type="text" class="expense_value" id="kharch2" placeholder="Enter Income 1">
+  <img src="images/tick.png" alt="tick" class="tick" id="tick3">
+</div>
+  </div>
+  <div class="how-much" id="transfers-4">
+    <p class="expense">Income Type </p>
+    <div class="input_tick">
+    <input type="text" class="expense_value" id="kaisaincome" placeholder=" Exp : Business">
+    <img src="images/tick.png" alt="tick" class="tick" id="tick4">
+  </div>  
+</div>
+    </div>
+  <div class="balance-find">
+<button class="balance-find-label" id="balance_button">Calculate Current Account Balance</button>
+    </div>
+ </section>
+</section>
+<section class="footer">
+<div class="t-expenses" id="t-expenses-id">
+   Total Expenses : <span class="t-expenses-amount"> </span> &#8377
+</div>
+<div class="t-income" id="t-income-id">
+  Total Income : <span class="t-income-amount"> </span> &#8377
+</div>
+</section>
+</section>
+    <script src="script.js" async defer></script>
+  </body>
+</html>

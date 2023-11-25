@@ -1,0 +1,130 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  align-content: center;
+  position: relative;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+
+button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(0, 0, 0);
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 800;
+  transition: all 0.2s;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(1px);
+  padding: 0.7rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.about img {
+  height: 300px;
+}
+.players {
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 24px;
+  display: flex;
+}
+
+.player-1 {
+  padding: 100px;
+}
+#p-1 {
+  background-color: #cc9faf;
+}
+#p-2 {
+  background-color: #b16c88;
+}
+
+.score {
+  margin-top: 60px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 50px 30px 50px;
+  border-radius: 10px;
+  background-color: #c02e58;
+}
+
+.high-score1 {
+  font-size: 74px;
+  color: rgb(133, 26, 26);
+}
+.high-score2 {
+  font-size: 74px;
+  color: rgb(133, 26, 26);
+}
+
+.centre {
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  position: absolute;
+  align-self: center;
+  top: 14rem;
+  display: inline-block;
+  height: 60px;
+}
+.new-game {
+  top: 19vh;
+}
+.roll-dice {
+  padding: 10px 30px 10px 30px;
+  top: 22.3rem;
+}
+.hold {
+  top: 26.1rem;
+}
+
+.player-1 {
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 1000px) {
+  .main {
+    transform: scale(0.6);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    transform: scale(0.39);
+  }
+}
+
+.Made {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  font-size: 22px;
+  padding: 20px;
+}

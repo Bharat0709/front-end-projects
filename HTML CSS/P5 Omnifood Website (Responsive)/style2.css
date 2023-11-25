@@ -1,0 +1,321 @@
+@media (max-width: 1000px) {
+  .nav-bar {
+    align-items: center;
+    margin: auto;
+    padding: 30px 30px 20px 30px;
+  }
+
+  #hamburger {
+    display: block;
+  }
+  .nav-bar span {
+    display: block;
+  }
+  .nav-items {
+    display: none;
+  }
+  .logo {
+    height: 18px;
+  }
+  .hero-section {
+    margin: auto;
+    padding: 30px 30px 40px 30px;
+    justify-content: center;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  h3 {
+    margin: 20px 0px 0px 0px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 2;
+  }
+  h1 {
+    font-size: 26px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-links {
+    align-self: center;
+    display: flex;
+    justify-items: center;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .hero-links a {
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 11px 12px 11px 12px;
+  }
+  .customer-pics img {
+    margin-right: -10px;
+    height: 30px;
+    width: 30px;
+  }
+  #meals {
+    color: #e67e22;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .sec-head p {
+    font-size: 14px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .customers {
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-image {
+    height: 213px;
+    width: 220px;
+    align-self: center;
+  }
+
+  .hero-section {
+    padding: 20px 30px 40px 30px;
+    background-color: #fdf2e9;
+    display: flex;
+    align-items: center;
+  }
+
+  .featured {
+    padding: 0px 30px 20px 30px;
+    transform: scale(0.37);
+  }
+
+  .company-names {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  .how-it-works {
+    margin-bottom: 60px;
+    padding: 30px 20px 20px 20px;
+  }
+
+  .main-heading p {
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: BOLD;
+    font-size: 12px;
+    color: #e67e22;
+  }
+
+  .main-heading h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0px 0px;
+  }
+
+  .app-screen-para {
+    font-size: 10px;
+    line-height: 2;
+    width: 90vw;
+    text-align: left;
+  }
+
+  .app-screen img {
+    height: 380px;
+    width: auto;
+  }
+
+  .tell {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .app-screen {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  #approve {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #avacado {
+    margin-top: -90px;
+  }
+
+  .first {
+    font-size: 68px;
+  }
+
+  #dailyh3 {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  #ai {
+    font-size: 24px;
+  }
+
+  .meals {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px 30px 20px;
+  }
+
+  .meal-1 img {
+    width: auto;
+    height: 300px;
+    border-radius: 20px 0px 20px 0px;
+  }
+
+  .meal-1 {
+    gap: 40px;
+    margin-top: -60px;
+    justify-content: center;
+    width: 330px;
+    transform: scale(0.8);
+  }
+
+  .meal-2 {
+    margin-bottom: 10px;
+  }
+  #works {
+    margin-bottom: 20px;
+  }
+
+  #try {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .testimonicals {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 30px 20px;
+  }
+  .review-1 p {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .review-1 img {
+    height: 32px;
+    width: 32px;
+  }
+
+  .gallery IMG {
+    border-radius: 30px 0px 0px 0px;
+    height: 120px;
+    width: 120px;
+  }
+  .gallery {
+    justify-content: center;
+    align-self: center;
+    margin: 70px auto 0px 30px;
+  }
+
+  .pricing {
+    flex-direction: column;
+    margin: -70px 0px 50px -10px;
+    transform: scale(0.8);
+  }
+
+  .taxes {
+    font-size: 12px;
+    margin-top: -90px;
+  }
+
+  .quality {
+    margin-top: -10px;
+    padding: 50px 20px 50px 20px;
+    flex-direction: column;
+  }
+
+  .above-footer {
+    transform: scale(0.9);
+    gap: 30px;
+    margin: -40px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .box-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #signup {
+    align-self: center;
+    margin: 30px;
+    justify-content: center;/
+    
+  }
+
+  .box-image {
+    width: fit-content;
+  }
+  .box-1 h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .box {
+    padding: 50px 0px 50px 20px;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box h2 {
+    font-size: 32px;
+  }
+  .con {
+    display: flex;
+    gap: 50px;
+    padding: 0px 30px 0px 20px;
+    font-size: 12px;
+  }
+
+  .con2 {
+    font-size: 12px;
+    margin-top: 40px;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .footer {
+    flex-direction: column-reverse;
+    gap: 40px;
+    justify-content: center;
+  }
+  .box p {
+    line-height: 2;
+    font-size: 12px;
+  }
+
+  .above-footer img {
+    height: 400px;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: -30px;
+  }
+}

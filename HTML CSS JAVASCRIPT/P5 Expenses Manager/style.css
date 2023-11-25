@@ -1,0 +1,299 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.upper {
+  padding-top: 7%;
+  height: 760px;
+  width: 98.8vw;
+  backdrop-filter: blur(30px);
+  background-image: url(images/unsplash_LoG7zLmSHX8.png);
+}
+body {
+  font-family: "Inknut Antiqua", serif;
+}
+.logo {
+  padding: 20px;
+}
+.heading {
+  font-size: 44px;
+}
+
+.login2 {
+  font-size: 17px;
+  margin-top: 12px;
+}
+
+#eye {
+  cursor: pointer;
+  padding: 6px 9px 6px 6px;
+}
+
+#eyeopen {
+  cursor: pointer;
+  margin-left: -55px;
+  padding: 6px 9px 6px 6px;
+  display: none;
+}
+.userimg {
+  box-shadow: -10px 10px 10px 0px rgba(232, 230, 230, 0.855);
+  background-color: white;
+  padding: 9px 16px 9px 9px;
+  border-radius: 0px 30px 30px 0px;
+  margin-left: -20px;
+}
+.main {
+  backdrop-filter: blur(4px);
+  box-shadow: 7px 7px 20px 0px rgb(70, 69, 69);
+  border-radius: 30px;
+  margin: auto;
+  display: flex;
+  width: fit-content;
+  height: 550px;
+  gap: 80px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.illustration {
+  box-shadow: 6px 7px 10px 0px rgb(73, 73, 73);
+  margin: 0px 10px 0px -10px;
+  padding: 10px;
+  background-color: #142c47;
+  width: 420px;
+  border-radius: 30px;
+  height: 500px;
+}
+input {
+  box-shadow: 0px 14px 10px 0px rgb(232, 230, 230);
+  font-size: 16px;
+  border: none;
+  padding: 12px 50px 12px 12px;
+  border-radius: 20px;
+}
+button {
+  cursor: pointer;
+  box-shadow: 0px 14px 10px 0px rgba(225, 223, 223, 0.783);
+  font-family: "Inknut Antiqua", serif;
+  background-color: white;
+  border-radius: 30px;
+  width: 290px;
+  border: 1px solid black;
+  margin-left: 40px;
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow: 0px 14px 10px 0px rgba(202, 202, 202, 0.783);
+}
+.userinput {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  margin: 0px 20px 0px 40px;
+}
+
+.credentials {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.signup-left {
+  margin: 0px 0px 0px 60px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.welcome {
+  margin-top: -90px;
+}
+.current-balance {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  padding: 50px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  gap: 270px;
+  margin: auto;
+  justify-content: space-between;
+}
+.data {
+  margin-top: 8px;
+}
+.balance {
+  font-size: 44px;
+  margin-left: -20px;
+}
+.movements-section {
+  position: relative;
+  width: 500px;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  gap: 60px;
+  display: flex;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 20px;
+  align-items: center;
+  margin: 0px 0px 4px 0px;
+  background-color: #f2f2f2;
+}
+
+.movements {
+  overflow: scroll;
+  height: 620px;
+  width: 560px;
+  margin: 0px 0px 40px 0px;
+}
+.amount {
+  font-size: 32px;
+}
+.movement-type-EXPENSES {
+  position: absolute;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 7px;
+  background-image: linear-gradient(to right top, #90fff9, #90f088);
+}
+.movement-type-INCOME {
+  position: absolute;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 7px;
+  font-weight: bold;
+  background-image: linear-gradient(to right top, #d4c0e8, #ecaec6);
+}
+.movementsdate {
+  font-size: 16px;
+}
+.upper {
+  display: block;
+}
+
+.greet {
+  font-family: "Poppins", sans-serif;
+  margin: 10px 0px -30px 0px;
+  font-size: 24px;
+}
+.application {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  gap: 20px;
+}
+.sab-kuch {
+  display: none;
+}
+.iwannaflex {
+  display: flex;
+}
+
+.transfers {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+}
+
+.tick {
+  cursor: pointer;
+  box-shadow: -10px 0px 10px 0px rgba(225, 223, 223, 0.783);
+  background-color: white;
+  padding: 9px 16px 6px 9px;
+  border-radius: 0px 30px 30px 0px;
+  margin-left: -20px;
+  margin-top: 20px;
+  width: 30px;
+}
+.input_tick {
+  display: flex;
+  align-items: center;
+}
+
+#transfers-1 {
+  background-image: linear-gradient(to right, #fff95b, #ff930f);
+  padding: 30px;
+
+  border-radius: 20px;
+}
+
+#transfers-2 {
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+#transfers-3 {
+  background-image: linear-gradient(to right, #ecdec4, #f49fda);
+  padding: 30px; 
+  border-radius: 20px;
+}
+
+#transfers-4 {
+  margin-top: 40px;
+  border-radius: 20px;
+}
+#kharch1,
+#kharch2,
+#kaisa,
+#kaisaincome {
+  margin-top: 20px;
+}
+.how-much{
+  width: 340px;
+}
+.expense_value {
+  box-shadow: none;
+}
+.expense {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+#balance_button {
+  box-shadow: none;
+  padding: 8px;
+  height: 50px;
+  width: 360px;
+  margin-left: 4px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  background-image: linear-gradient(to right bottom, #f7e9e8, #e9f0aa, #ebd199);
+  border: none;
+}
+.t-expenses,
+.t-income {
+  padding: 8px;
+  width: 230px;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  background-image: linear-gradient(to right, #cacff9a3, #f5cbd9, #f4bccd);
+}
+#t-income-id {
+  background-image: linear-gradient(to right bottom, #affcaf, #8deef7);
+}
+
+.footer {
+  display: flex;
+  margin: auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 50px 90px;
+}
+
+.note {
+  font-family: "Poppins", sans-serif;
+  width: 580px;
+  margin-bottom: 30px;
+}
+.tickeed {
+  height: 30px;
+  width: 30px;
+}

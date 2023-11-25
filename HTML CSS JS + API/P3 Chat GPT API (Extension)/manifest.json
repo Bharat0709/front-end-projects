@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Commenter",
+  "version": "1.0",
+  "description": "A Chrome extension for commenting on LinkedIn posts",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "webNavigation",
+    "https://www.linkedin.com/",
+    "https://www.linkedin.com/*",
+    "https://*.linkedin.com/*"
+  ],
+  "icons": {
+    "48": "images/icon48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.linkedin.com/*"],
+      "js": ["js/content.js"]
+    }
+  ]
+}
