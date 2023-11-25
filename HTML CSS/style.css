@@ -1,0 +1,237 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  padding: 25px 35px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work {
+  font-weight: 500;
+  color: black;
+  font-size: 14px;
+  margin: 28px;
+  text-decoration: none;
+}
+
+.Name {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+.contact {
+  font-size: 12px;
+  font-weight: 300;
+  background-color: #5e3bee;
+  border: none;
+  padding: 10px 12px 10px 12px;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: 200px;
+}
+
+.sub-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sub {
+  font-size: 20px;
+}
+
+.main-heading {
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 72px;
+  width: 1000px;
+  line-height: 90px;
+  text-align: center;
+}
+
+.sub-heading {
+  font-weight: 500;
+  padding: 140px 120px;
+}
+
+.contactwithme {
+  padding: 18px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #5e3bee;
+  border: none;
+  border-radius: 200px;
+  color: white;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.arrow {
+  margin-left: 25px;
+}
+
+.card-image {
+  border-radius: 12px;
+  height: 556px;
+  width: 462px;
+}
+.workido {
+  padding: 70px;
+}
+.business {
+  margin: 60px 0px 30px 0px;
+  font-size: 48px;
+  font-weight: 600;
+  width: 600px;
+}
+
+.icecream {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.cards {
+  width: 452px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.text {
+  opacity: 0.8;
+  line-height: 22.2px;
+  font-size: 14px;
+}
+
+.cardds {
+  display: flex;
+  gap: 120px;
+}
+
+#nd-card {
+  margin-top: 60px;
+}
+.dribble-button {
+  background-color: #111827;
+  border-radius: 200px;
+  border: none;
+  color: white;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.customers {
+  font-size: 48px;
+  font-weight: 600;
+}
+.cust {
+  margin-top: 40px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cutomts {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  padding: 60px 0px 0px 100px;
+  background-color: #f0fefa;
+}
+
+#pareshan {
+  margin-top: -10px;
+  width: fit-content;
+}
+
+.customers-review {
+  line-height: 32px;
+}
+
+.uiux {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.UI {
+  background-color: white;
+  padding: 24px 20px;
+  box-shadow: 9px 2px 12px 5px rgb(246, 239, 239);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 300px;
+  align-items: flex-start;
+  height: fit-content;
+}
+
+.discription {
+  opacity: 0.6;
+  line-height: 24px;
+}
+
+.icon {
+  height: 40px;
+}
+
+.uidiv {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.logo {
+  padding: 100px 0px 100px 0px;
+}
+.bitmore {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  gap: 50px;
+}
+
+.bits {
+  font-size: 48px;
+  font-weight: 600;
+}
+.shitiz {
+  width: 400px;
+}
+
+.lorem,
+.para {
+  line-height: 32px;
+}
+
+.para {
+  margin-top: 18px;
+}
+.lorem {
+  margin-top: 20px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.three {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
