@@ -1,0 +1,207 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.LandingScreen {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  animation: slidein 0.6s linear 0s alternate;
+}
+
+.AppName {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0.3rem;
+}
+
+.AppIcon {
+  width: 255px;
+}
+
+.WithDarkBg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  background-color: #120a42;
+  padding: 54px;
+  border-radius: 0px 0px 60px 60px;
+}
+
+.TagLine {
+  font-size: 14px;
+}
+
+.GetStarted {
+  padding: 16px 54px 16px 54px;
+  border: none;
+  margin: 8px;
+  font-size: 18px;
+  border-radius: 12px;
+  color: white;
+  background-color: #120a42;
+  cursor: pointer;
+}
+
+.Cast {
+  color: #ffd977;
+}
+
+.WithWhiteBg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.TagLIne2,
+.TagLIne3 {
+  font-size: 16px;
+}
+
+.Weather-UI {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: none;
+}
+
+.WeatherAppScreen {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  margin: 0px auto 20px auto;
+  background-color: #120a42;
+  padding: 32px;
+  font-size: 18px;
+  color: white;
+  border-radius: 0px 0px 40px 40px;
+  animation: slidein 0.6s linear 0s alternate;
+}
+
+.Date {
+  text-align: left;
+}
+
+.Search {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 12px 12px 0px;
+}
+
+.LocationSearch {
+  padding: 10px;
+  width: 200px;
+  height: 18px;
+  border: none;
+}
+
+.CurrentWeatherCondition {
+  display: flex;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1b1c48;
+  padding: 10px 15px 10px 15px;
+}
+
+.CurrentTemperature {
+  font-size: 44px;
+  margin: 12px 0px 12px 8px;
+}
+
+.material-symbols-outlined {
+  color: black;
+  background-color: white;
+  padding: 7px;
+}
+
+#Search-Check {
+  margin-left: -14px;
+  border-radius: 0px 6px 6px 0px;
+  background-color: #ffd977;
+}
+
+#ID-Search {
+  margin-right: -12px;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.CurrentCoditionQuote {
+  text-align: center;
+  margin: 8px 0px -7px 0px;
+}
+
+.CurrentWeatherTy {
+  margin: 12px 0px 12px 8px;
+}
+
+.Stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px;
+  font-size: 14px;
+  background-color: white;
+  border-radius: 12px;
+  width: 130px;
+  text-align: center;
+}
+
+.WeatherStats {
+  display: flex;
+  gap: 20px;
+  margin: 12px auto 12px auto;
+  animation: slidein 0.6s linear 0s alternate;
+}
+
+.stat-Amount {
+  font-size: 16px;
+  margin: 6px;
+}
+
+.temperatureImage {
+  height: 40px;
+}
+
+#CurrentWeatherImage {
+  height: 154px;
+}
+
+#Max-min-temp {
+  justify-content: space-around;
+}
+
+@keyframes slidein {
+  0% {
+    transform: translateY(300px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.Degree {
+  font-size: 18px;
+  color: #ffd977;
+}
